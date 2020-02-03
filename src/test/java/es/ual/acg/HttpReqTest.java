@@ -27,7 +27,7 @@ public class HttpReqTest{
         headers2.put("MethodType", alternateParameterMethodType);
         headers2.put("content-type", alternateParameterContentType);
         headers2.put("Authorization", alternateParameterAuthorization);
-        String payload = "{\"body\":\"vaya tela\"}";
+        String payload = "{\"body\":\"example request\"}";
         
         HttpReq tester = new HttpReq();
 
@@ -95,7 +95,7 @@ public class HttpReqTest{
         headers2.put("MethodType", alternateParameterMethodType);
         headers2.put("content-type", alternateParameterContentType);
         headers2.put("Authorization", alternateParameterAuthorization);
-        String payload = "{\"body\":\"BODYVALUE\"}";
+        String payload = "{\"body\":\"example request\"}";
 
         HttpReq tester = new HttpReq();
         try{
